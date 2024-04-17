@@ -1,0 +1,118 @@
+<!-- pages/templates/pages/home.html -->
+
+
+{% extends "base.html" %}
+
+<a href="{% url 'home' %}"></a>
+
+{% block page_content %}
+
+<body>
+    {% load static %}
+    <div id="page-wrap">
+
+
+        <img src="{% static 'images/BashaarBW.jpg' %}" alt="Photo of Bashaar" id="pic">
+
+       
+
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">Bashaar Dhoot</h1>
+        
+            <p>
+                Tel: <span class="tel">+447940 161 559</span><br />
+                Email: <a class="email" href="mailto:bashaardhoot@gmail.com">bashaardhoot@gmail.com</a>
+            </p>
+        </div>
+                
+        <div id="objective">
+            <p>
+                Coming from a family of doctors, I&#39;ve naturally gravitated towards technologies that can help individuals in the
+                healthcare sector. For my dissertation I created a Tumour detection application using MATLAB, taking stock
+                images of MRI scans to identify tumours in the brain. I built a system where a user was able to upload an
+                image and, using &#39;for-loops&#39;, highlight the tumorous area. I was pleased with the outcome, having successfully
+                created a user-friendly application for people to self-identify possible brain tumours. Given the opportunity to
+                continue the programming for the application I believe it would be possible to develop it to accurately detect
+                tumours before they would become harmful to the individual.
+            </p>
+        </div>
+        
+        <div class="clear"></div>
+        
+        <dl>
+            <dd class="clear"></dd>
+            
+            <dt>Education</dt>
+            <dd>
+                <h2>The Open University</h2>
+                <p><strong>Major:</strong> Computing and ICT<br />
+                   <strong>Minor:</strong>UX Design</p>
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Skills</dt>
+            <dd>
+
+                <h2>Computer skills</h2>
+                <p>Python, Matlab, HTML, CSS, Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
+            
+                <h2>Office skills</h2>
+                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
+                
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Experience</dt>
+            <dd>
+                <h2>The Open Univertsy <span>Student - London - 2019-2022</span></h2>
+                <ul>
+                    <li>Created an application that recognises Tumors in MRI Scans</li>
+                    <li>Coordinated with staff and students to create an Open Universty sports website</li>
+                    <li>Used Onlie fourums to create diffrent concepts for applications used in other students porjects</li>
+                </ul>
+                
+                <h2>The City of London <span>Ranger - Hampstead Heath - present</span></h2>
+                <ul>
+                    <li>Overall management of the site</li>
+                    <li>Managing stock for all employees working in different areas</li>
+                    <li>Managing all sports &amp; recreational activities in the Extension</li>
+                </ul> 
+            </dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>Hobbies</dt>
+            <dd>Application Design, Machine Learning Projects, Website Design</dd>
+            
+            <dd class="clear"></dd>
+            
+            <dt>References</dt>
+            <dd>Available on request</dd>
+            
+            <dd class="clear"></dd>
+        
+            <div class="centerButton">
+    
+                
+                <a href="{% url 'static' %}" download="BashaarCV.rtf">
+                  <button class="buttonCV" type="button">Download CV!</button>
+                
+                </a>
+              </div>  
+        
+        </dl>
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+
+{% endblock page_content %}
+ 

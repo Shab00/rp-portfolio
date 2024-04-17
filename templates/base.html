@@ -1,0 +1,42 @@
+<!-- templates/base.html -->
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>{% block title %}Curriculum Vitae{% endblock title %}</title>
+
+    <link href="{% static '/css/main.css' %}" rel="stylesheet" type="text/css">
+</head>
+
+<body class="container">
+
+  <nav>
+    <a herf="{% url 'home' %}">
+      <img src="{% static 'images/logo.jpg' %}" alt="logo" class="logo" />
+    </a>
+    <li><a class="nav-link" href="{% url 'home' %}">Curriculum Vitae</a></li>
+    <li style="float:right"><a class="nav-link" href="{% url 'about' %}">About</a></li>
+    <li style="float:right"><a class="nav-link" href="{% url 'contact' %}">Contact</a></li>
+    <li style="float:right"><a class="nav-link" href="{% url 'project_index' %}">Projects</a></li>
+    
+  </nav> 
+{% block page_content %}
+
+
+{% endblock page_content %}
+
+
+  <footer>
+    <ul>
+      <li>Author: Bashaar Dhoot</li>
+    </ul>
+  </footer>
+</body>
+
+</html>

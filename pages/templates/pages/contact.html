@@ -1,0 +1,31 @@
+<!-- pages/templates/pages/contact.html -->
+
+
+{% extends "base.html" %}
+
+<a href="{% url 'contact' %}"></a>
+
+{% block page_content %}
+
+{% load static %}
+<h1 id="page-wrap">Contact Me</h1>
+
+<div id="page-wrap" class="container">
+    <form target="_blank" action="https://formsubmit.co/bashaardhoot@gmail.com" method="POST">
+  
+      <label>Full Name</label>
+      <input type="text" name="firstname" placeholder="Your name.." required>
+  
+      <label>Email</label>
+      <input type="email" name="email" placeholder="Your Email.." required>
+  
+      <label>Subject</label>
+      <textarea name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+  
+      <button class="sub" type="submit" value="Submit">Submit</button>
+  
+    </form>
+</div>
+  
+{% endblock page_content %} 
+

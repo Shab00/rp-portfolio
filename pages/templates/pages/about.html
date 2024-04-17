@@ -1,0 +1,101 @@
+<!-- pages/templates/pages/contact.html -->
+
+
+{% extends "base.html" %}
+
+<a href="{% url 'about' %}"></a>
+
+{% block page_content %}
+
+{% load static %}
+<body>
+    {% load static %}
+    <div id="page-wrap">
+
+
+        
+
+       
+
+        <div id="contact-info" class="vcard">
+        
+            <!-- Microformats! -->
+        
+            <h1 class="fn">About</h1>
+        
+            <p>
+                Tel: <span class="tel">+447940 161 559</span><br />
+                Email: <a class="email" href="mailto:bashaardhoot@gmail.com">bashaardhoot@gmail.com</a>
+            </p>
+        </div>
+                
+        <div id="obj">
+            <p>
+                While studying with the Open University I worked on an array of projects, both group and
+                individual ones, which have helped me acquire a wide skillset in different computing
+                languages. Working as part of a team taught me the value of group working and allowed me
+                to hone my collaborative teamworking skills. The projects I found most enjoyable and
+                interesting throughout my degree were those revolving around health and wellbeing.
+                One of the main projects I helped deliver was creating webpages for the Open University to
+                be used for the University’s sports forums. I designed it so that data about users would be
+                pulled using SQL from a database (Postgres) to verify them. The webpages used HTML, CSS
+                and JavaScript, and were meant to clearly show sporting event times and user data. This
+                also included a login page where users would sign in, then be verified through Postgres. I
+                thoroughly enjoyed this project, working with likeminded individuals to deliver a stable and
+                uncomplicated working site.
+                Coming from a family of doctors, I’ve naturally gravitated towards technologies that can
+                help individuals in the healthcare sector. For my dissertation I created a Tumour detection
+                application using MATLAB, taking stock images of MRI scans to identify tumours in the brain.
+                I built a system where a user was able to upload an image and, using ‘for-loops’, highlight
+                the tumorous area. I was pleased with the outcome, having successfully created a user-
+                friendly application for people to self-identify possible brain tumours. Given the
+                opportunity to continue the programming for the application I believe it would be possible
+                to develop it to accurately detect tumours before they would become harmful to the
+                individual.
+                Since graduating, I’ve held several positions in different sectors that have always revolved
+                around teamwork and excellent customer service. My first job was working in the betting
+                industry where I learnt to work under considerable pressure in a high stakes environment.
+                As my main role was working with individual’s money, a high level of care and attention had
+                to be taken. This included identifying problem gamblers and taking necessary action when
+                required. For my job at The Langham, a 5-star luxury hotel in Central London,
+                communication was key. When I joined in 2017 they had just opened their flagship pub, The
+                Wigmore, which I helped set up and was a key member of staff in its early days. My job was
+                to take care of the private parties, interacting with our special guests and distinguished
+                clientele. This required professionalism and discretion, as well as confidence and impeccable
+                soft skills in the face of at-times sensitive situations. My current job at Hampstead Heath has
+                taught me how to work with a much bigger team spanning over a large area of Northwest London. It has greatly helped me with my time management and critical thinking skills, as the Heath is vast and jobs need to be done on certain days. These range from public care to marking the sports fields from scratch.
+                In my spare time I enjoy creating application using the relevant required programming
+                languages. Each project will always have different requirements, so I am familiar with an
+                array of different languages and am a keen problem-solver. Currently, I’m using Python with
+                Anaconda to create a facial recognition application. Reflective of the changing world around
+                us, I believe machine learning is the future in software development. My goal is to create a facial recognition application that I can then build on to hopefully be able to recognise
+                different kind of cuts or rashes.
+                
+            </p>
+        </div>
+        
+        
+            
+            <dd class="clear"></dd>
+        
+            <div class="centerButton">
+    
+                
+                <a href="{% url 'static' %}" download="BashaarCV.rtf">
+                  <button class="buttonCV" type="button">Download CV!</button>
+                
+                </a>
+              </div>  
+        
+        
+        
+        <div class="clear"></div>
+    
+    </div>
+
+</body>
+
+</html>
+  
+{% endblock page_content %}
+ 

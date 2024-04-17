@@ -1,0 +1,27 @@
+<!-- projects/templates/projects/project_detail.html -->
+
+{% extends "base.html" %}
+
+{% block page_content %}
+
+{% load static %}
+<div id="page-wrap">
+    <h1>{{ project.title }}</h1>
+    <div class="row">
+
+        <div class="col-md-8">
+            {% if project.image %}
+                <img id="im2" src="{{ project.image.url }}" >
+            {% endif %}
+        </div>
+
+        <div class="col-md-4">
+            <h5 id="abt">About the project:</h5>
+            <p id="pd">{{ project.description }}</p>
+            <br>
+            <h5 id="abt">Technology used:</h5>
+            <p id="pd">{{ project.technology }}</p>
+        </div>
+    </div>
+</div>
+{% endblock page_content %}
