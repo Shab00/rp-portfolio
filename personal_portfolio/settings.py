@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 """
 
 from pathlib import Path
+
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,6 +28,23 @@ SECRET_KEY = 'django-insecure-3+tcj@&!2c)h(#9@z$dspy^9ieyz7lw2$4v5b0i%ao64qji^g4
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+
+
+# EMAIL_HOST = 'sandbox.smtp.mailtrap.io'
+# EMAIL_HOST_USER = '25d3931d7f3010'
+# EMAIL_HOST_PASSWORD = '41f99b102e2dd5'
+# EMAIL_PORT = '2525'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'bashaardhoot@gmail.com'
+EMAIL_HOST_PASSWORD = 'zgqmtjgetpiuenjt'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+
+
 
 MEDIA_ROOT = BASE_DIR / "uploads/"
 
