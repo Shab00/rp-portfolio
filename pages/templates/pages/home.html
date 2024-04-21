@@ -14,13 +14,13 @@
 
         <img src="{% static 'images/BashaarBW.jpg' %}" alt="Photo of Bashaar" id="pic">
 
-       
+        <h1 class="fn">Bashaar Dhoot</h1>
 
         <div id="contact-info" class="vcard">
         
             <!-- Microformats! -->
         
-            <h1 class="fn">Bashaar Dhoot</h1>
+           
         
             <p>
                 Tel: <span class="tel">+447940 161 559</span><br />
@@ -96,19 +96,21 @@
             
             <dd class="clear"></dd>
         
-            <div class="centerButton">
-    
-                
-                <a href="{% url 'static' %}" download="BashaarCV.rtf">
-                  <button class="buttonCV" type="button">Download CV!</button>
-                
-                </a>
-              </div>  
         
         </dl>
         
         <div class="clear"></div>
+        
+        <div class="centerButton">
     
+                
+            <a href="{% url 'static' %}" download="BashaarCV.rtf">
+              <button class="buttonCV" type="button">Download CV!</button>
+            
+            </a>
+        </div>  
+
+
     </div>
 
 </body>
