@@ -314,7 +314,7 @@ footer li {
   
 }
 
-@media (max-width:390px){
+@media (max-width:415px){
 
   li a{
 
@@ -357,7 +357,7 @@ footer li {
   .col-md-4{max-width: 350px;}
 
 
-  dt { font-style: italic; font-weight: bold; font-size: 25px; text-align: left; padding: 0 0 0 0; width: 150px; float: left; height: 20px; border-right: 0px solid #999;}
+  dt { font-style: italic; font-weight: bold; font-size: 25px; text-align: left; padding: 0 0 0 0; width: 150px; float: left; height: 20px; letter-spacing: -2px; border-bottom: 1px solid #999;line-height: 50%;}
   dd { width: 500px; float: left; font-size: 17px; width: 350px;}
   dd.clear { float: none; margin: 0; height: 25px; }
 
@@ -366,4 +366,112 @@ footer li {
   h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 12px; color: #999; font-weight: normal;}
 
   #read{margin-bottom: 40px;}  
+} 
+
+@media (max-width:360px){
+
+  li a{
+
+    font-size: 24px;
+    padding: 14px 16px;
+  
+
+  }
+
+  h1 { margin: 30px 0 0 0; padding: 0 0 0 0; font-size: 35px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999;line-height: 100%; width: 320px;}
+
+  #objective { width: 320px; float: left;}
+
+ 
+
+  #page-wrap { width: 320px; margin: auto auto auto }
+
+  #pic { float: right; margin: 0 0 0 0; max-width: 125px; max-height: 125px;}
+
+  #obj {
+
+    font-family: Georgia, Serif; font-style: italic; color: #666; width: 320px;
+  
+  
+  }
+
+  
+
+  #contact {width: 302px;}
+
+  .col-md-4{
+
+      width:750px;
+   }
+
+  .card-title{font-size: 30px; margin-top: 10px;}
+  .card-img-top{max-width: 300px; max-height: 300px;}
+  #im2 {max-width: 300px; max-height: 300px;}
+
+  .col-md-4{max-width: 320px;}
+
+
+  dt { font-style: italic; font-weight: bold; font-size: 25px; text-align: left; padding: 0 0 0 0; width: 150px; float: left; height: 20px; letter-spacing: -2px; border-bottom: 1px solid #999;line-height: 50%;}
+  dd { width: 500px; float: left; font-size: 17px; width: 320px;}
+  dd.clear { float: none; margin: 0; height: 25px; }
+
+  h2{font-size: 12px;}
+
+  h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 12px; color: #999; font-weight: normal;}
+
+  #read{margin-bottom: 40px;}  
+} 
+
+@media (max-width:320px){
+
+  li a{
+
+    font-size: 24px;
+    padding: 14px 16px;
+  
+
+  }
+
+  h1 { margin: 30px 0 0 0; padding: 0 0 0 0; font-size: 35px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999;line-height: 100%; width: 280px;}
+
+  #objective { width: 280px; float: left;}
+
+ 
+
+  #page-wrap { width: 280px; margin: auto auto auto }
+
+  #pic { float: right; margin: 0 0 0 0; max-width: 125px; max-height: 125px;}
+
+  #obj {
+
+    font-family: Georgia, Serif; font-style: italic; color: #666; width: 280px;
+  
+  
+  }
+
+  
+
+  #contact {width: 262px;}
+
+  .col-md-4{
+
+      width:750px;
+   }
+
+  .card-title{font-size: 30px; margin-top: 10px;}
+  .card-img-top{max-width: 250px; max-height: 250px;}
+  #im2 {max-width: 250px; max-height: 250px;}
+
+  .col-md-4{max-width: 280px;}
+
+
+  dt { font-style: italic; font-weight: bold; font-size: 25px; text-align: left; padding: 0 0 0 0; width: 150px; float: left; height: 20px; letter-spacing: -2px; border-bottom: 1px solid #999;line-height: 50%;}
+  dd { width: 500px; float: left; font-size: 17px; width: 280px;}
+  dd.clear { float: none; margin: 0; height: 25px; }
+
+  h2{font-size: 12px;}
+
+  h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 10px; color: #999; font-weight: normal;}
+
+  #read{margin-bottom: 40px; font-size: 14px;}  
 } 
