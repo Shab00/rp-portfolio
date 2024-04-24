@@ -42,7 +42,7 @@ def about(request):
     return render(request, "pages/about.html", {})
 
 def download(request):
-    file = os.path.join(settings.BASE_DIR, 'uploads/images/BashaarCV.rtf')
+    file = os.path.join(settings.BASE_DIR, 'static/BashaarCV.rtf')
 
     fileOpened = open(file, 'rb')
 
